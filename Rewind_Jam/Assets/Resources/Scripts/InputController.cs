@@ -31,5 +31,14 @@ public class InputController : MonoBehaviour
         {
             Player.Move(dir.normalized);
         }
+
+        if (!Player.RespawnSet && Input.GetKeyDown(KeyCode.Space))
+        {
+            Player.SetRespawnPoint();
+        }
+        if (Player.RespawnSet && Input.GetKeyUp(KeyCode.Space))
+        {
+            Player.WarpToRespawnPoint();
+        }
     }
 }

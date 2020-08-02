@@ -112,6 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 3
+  RespawnPointPrefab: {fileID: 4784343409181081273, guid: 4e475112631b23946a4f74e296bbea87, type: 3}
 --- !u!54 &255045188672402854
 Rigidbody:
   m_ObjectHideFlags: 0
